@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BenchViewController.h"
 
 @interface ViewController ()
 
@@ -20,9 +21,9 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)pushNext:(UIButton *)sender {
+    BenchViewController *vc = [[BenchViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

@@ -19,6 +19,8 @@
 		CDCF6CEF1FF34984005B16B2 /* TeamSquadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCF6CEE1FF34984005B16B2 /* TeamSquadTests.m */; };
 		CDCF6CFA1FF34984005B16B2 /* TeamSquadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCF6CF91FF34984005B16B2 /* TeamSquadUITests.m */; };
 		CDCF6D0C1FF34A96005B16B2 /* BenchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCF6D0B1FF34A96005B16B2 /* BenchViewController.m */; };
+		CDCF6D1A1FF37329005B16B2 /* BenchViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCF6D181FF37329005B16B2 /* BenchViewCell.m */; };
+		CDCF6D1B1FF37329005B16B2 /* BenchViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDCF6D191FF37329005B16B2 /* BenchViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		CDCF6CFB1FF34984005B16B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDCF6D0A1FF34A96005B16B2 /* BenchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenchViewController.h; sourceTree = "<group>"; };
 		CDCF6D0B1FF34A96005B16B2 /* BenchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenchViewController.m; sourceTree = "<group>"; };
+		CDCF6D171FF37329005B16B2 /* BenchViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenchViewCell.h; sourceTree = "<group>"; };
+		CDCF6D181FF37329005B16B2 /* BenchViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenchViewCell.m; sourceTree = "<group>"; };
+		CDCF6D191FF37329005B16B2 /* BenchViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenchViewCell.xib; sourceTree = "<group>"; };
 		DCB82CC9C5399F64E4D03999 /* Pods-TeamSquad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamSquad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamSquad/Pods-TeamSquad.debug.xcconfig"; sourceTree = "<group>"; };
 		DF8E3D767D7CD3526306BE3D /* libPods-TeamSquadUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeamSquadUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F792A392CABAE44568F50E81 /* Pods-TeamSquadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamSquadUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamSquadUITests/Pods-TeamSquadUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +137,9 @@
 				CDCF6CE41FF34984005B16B2 /* main.m */,
 				CDCF6D0A1FF34A96005B16B2 /* BenchViewController.h */,
 				CDCF6D0B1FF34A96005B16B2 /* BenchViewController.m */,
+				CDCF6D171FF37329005B16B2 /* BenchViewCell.h */,
+				CDCF6D181FF37329005B16B2 /* BenchViewCell.m */,
+				CDCF6D191FF37329005B16B2 /* BenchViewCell.xib */,
 			);
 			path = TeamSquad;
 			sourceTree = "<group>";
@@ -293,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDCF6CE21FF34984005B16B2 /* LaunchScreen.storyboard in Resources */,
+				CDCF6D1B1FF37329005B16B2 /* BenchViewCell.xib in Resources */,
 				CDCF6CDF1FF34984005B16B2 /* Assets.xcassets in Resources */,
 				CDCF6CDD1FF34984005B16B2 /* Main.storyboard in Resources */,
 			);
@@ -458,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDCF6CDA1FF34984005B16B2 /* ViewController.m in Sources */,
+				CDCF6D1A1FF37329005B16B2 /* BenchViewCell.m in Sources */,
 				CDCF6CE51FF34984005B16B2 /* main.m in Sources */,
 				CDCF6CD71FF34984005B16B2 /* AppDelegate.m in Sources */,
 				CDCF6D0C1FF34A96005B16B2 /* BenchViewController.m in Sources */,
